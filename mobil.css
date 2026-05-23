@@ -347,3 +347,43 @@ rgb(4, 36, 96) !important;
     border-radius:12px !important;
   }
 }
+.hm-row-bc:nth-of-type(2) .product-banner-container-bc{
+    display:flex !important;
+    flex-wrap:nowrap !important;
+    overflow-x:auto !important;
+    overflow-y:hidden;
+    gap:16px;
+    padding:10px 5px;
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling:touch;
+}
+
+.hm-row-bc:nth-of-type(2) .product-banner-container-bc::-webkit-scrollbar{
+    display:none;
+}
+
+.hm-row-bc:nth-of-type(2) .product-banner-container-bc > div{
+    flex:0 0 auto !important;
+    width:320px !important;
+}
+
+.hm-row-bc:nth-of-type(2) .product-banner-info-bc{
+    width:100%;
+    border-radius:16px;
+    overflow:hidden;
+}
+
+.hm-row-bc:nth-of-type(2) .product-banner-img-bc{
+    width:100%;
+    height:auto;
+    object-fit:cover;
+    border-radius:16px;
+}
+
+@media(max-width:768px){
+
+.hm-row-bc:nth-of-type(2) .product-banner-container-bc > div{
+    width:220px !important;
+}
+
+}
