@@ -387,3 +387,7 @@ rgb(4, 36, 96) !important;
 }
 
 }
+.product-banner-container-bc {
+    padding: 10px 5px;
+    background: rgb(255 255 255 / 0%) !important;
+}
